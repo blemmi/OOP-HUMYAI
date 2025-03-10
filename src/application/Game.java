@@ -1,8 +1,6 @@
 package application;
 
-import javafx.util.Duration;
 import javafx.animation.AnimationTimer;
-import javafx.animation.PauseTransition;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Cursor;
 import javafx.scene.Parent;
@@ -12,6 +10,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class Game {
+	//OOP
     private Stage primaryStage;
     private Pane gamePane;
     private Player player;
